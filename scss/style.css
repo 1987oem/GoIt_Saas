@@ -1,0 +1,24 @@
+body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1000px;
+  height: 1310px; }
+
+h2 {
+  font-family: Arial; }
+
+h3 {
+  font-family: Sans-Serif; }
+
+h4, h5, h1 {
+  color: red; }
+
+.button-denger, .button-soft {
+  color: red;
+  border: 0px solid black;
+  text-shadow: 10px; }
+  .button-denger:hover, .button-soft:hover {
+    border: 0.5px solid green; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+// Style for "Background"
+body {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1000px;
+	height: 1310px;
+}
+
+$color: red;
+$font: Arial;
+$font2: Sans-Serif;
+@mixin btn {
+    color: grey;
+    border: 10px solid black;
+    text-shadow: 10px;
+    &:hover {
+    border: 0.5px solid green;
+    }
+}
+ 
+
+
+h2 {
+    font-family: $font;
+}
+
+h3 {
+    font-family: $font2;
+}
+
+h4, h5, h1 {
+    color: $color;
+}
+
+.button-denger, .button-soft {
+    @include btn
+}
+
